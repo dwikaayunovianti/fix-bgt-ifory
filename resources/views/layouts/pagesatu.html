@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #1affc6;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  width: 200px;
+  height: 200px;  
+  
+}
+
+.button:hover {background-color: #1affc6}
+
+.button:active {
+  background-color:#1affc6;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+</style>
+</head>
+<body>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<h1><font color="#004080"><font size="45"><center>IPB FOOD DELIVERY</center></font></font> <h1><hr>
+<h1><center>Thank you for join in IPB FOOD DELIVERY, you can be a customer or a driver at the different time.<br> Now show me what do you want to be</center><h1>
+
+<center><a href="{{ url('/home') }}"><button class="button"><p><i class="fa fa-user-circle-o" style="font-size:105px"></a></i></p></center></button>
+<center><p> Customer</p></center>
+
+<center><a href="{{ url('/page_driver') }}"><button class="button"><p><i class="fa fa-motorcycle" style="font-size:100px"></p></i></center></button></a>
+<center><p>Driver</p></center><br>
+<div id="footer"><p>Copyright &copy; 2018 - All Rights Reserved</p></div>
+</div>
+</body>
+</html> 
